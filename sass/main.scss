@@ -1,0 +1,24 @@
+// utlis styles
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './utils/mixin';
+
+// base styles
+@import './base/base';
+@import './base/reset';
+
+// components styles
+@import './components/section';
+@import './components/container';
+@import './components/header';
+@import './components/nav';
+@import './components/hero';
+@import './components/features';
+@import './components/work';
+@import './components/team';
+@import './components/socials';
+@import './components/clients';
+@import './components/footer';
+@import './components/portf-btn';
+@import './components/portf-filter';
+@import './components/modal';
