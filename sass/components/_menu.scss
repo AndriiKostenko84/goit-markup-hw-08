@@ -57,8 +57,8 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding: 32px;
-    background-color: #3f51b5;
+    padding-left: 40px;
+    background-color: var(--third-color);
     z-index: 999;
 
     transform: translateX(100%);
@@ -83,11 +83,61 @@
     margin-bottom: auto;
 }
 
+
+
+
 .mobile-menu .link {
     display: block;
-    padding: 10px;
-    color: #fff;
+    margin-top: 48px;
+    margin-bottom: 32px;
+    // margin-left: 40px;
+    // padding: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+
+    color: #212121;
     text-decoration: none;
+}
+
+.mobile-menu:last-child {
+margin-bottom: 32px;
+}
+
+
+.mobile-contacts-phone {
+    margin-bottom: 32px;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.17;
+    
+    letter-spacing: 0.02em;
+    
+    color: var(--accent-color);
+}
+
+
+.mobile-contacts-item {
+  margin-bottom: 32px;  
+    
+}
+
+.mobile-contacts-item:last-child {
+    margin-bottom: 64px;
+
+}
+
+.mobile-contacts-link {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1, 16;
+    letter-spacing: 0.02em;
+
+    color: var(--brand-color);
 }
 
 
@@ -95,4 +145,24 @@
 .mobile-socials {
     display: flex;
     gap: 20px;
+
 }
+
+.mobile-socials-link:not(:last-child)::after {
+    content: "";
+    border: 1px solid rgba(33, 33, 33, .2);
+    margin-left: 10px;
+}
+
+.mobile-socials-link {
+
+font-weight: 500;
+font-size: 18px;
+line-height: 1.22;
+
+letter-spacing: 0.02em;
+
+color: #2196F3;
+}
+
+
