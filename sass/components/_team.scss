@@ -1,9 +1,15 @@
 .team {
     @include section;
 
-    display: flex;
-    gap: var(--indent);
     background-color: #f5f4fa;
+
+
+    @media screen and (min-width:1200px) {
+        display: flex;
+        gap: var(--indent);
+        
+    }
+    
 }
 
 
@@ -13,6 +19,8 @@
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
+
+
 
 .position {
     padding-top: 30px;
