@@ -2,12 +2,17 @@
   @include section;
 }
 
-.features__list {
-  @media screen and (min-width: 1200px) {
-    display: flex;
-    gap: 30px;
-  }
-}
+// .features__list {
+//   @media screen and (min-width: 768px) {
+//     display: flex;
+//     gap: 30px;
+//   }
+
+//   @media screen and (min-width: 1200px) {
+//     display: flex;
+//     gap: 30px;
+//   }
+// }
 
 .feature__icon {
     display: flex;
@@ -21,16 +26,19 @@
     background-color: #f5f4fa;
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width: 768px) {
+      width: 354px;
+      
+    }
+    
+      @media screen and (min-width: 1200px) {
+        width: 270px;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
   }
 
-    @media screen and (min-width:780px) {
-      width: 354px;
-    }
-
-    @media screen and (min-width: 1200px) {
-      width: 270px;
-      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
+    
       
     // display: flex;
     // justify-content: center;

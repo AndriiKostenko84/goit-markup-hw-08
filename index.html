@@ -136,37 +136,46 @@
           <h2 class="section_title">Чим ми займаємося</h2>
           <ul class="work-list list">
             <li class="work-item">
-              <img
-                class="work-img"
-                src="./images/type.jpg"
-                alt="друкує"
+              <picture> 
+          <source media="(min-width:1200px)" 
+          srcset="./images/work/work-1_desk@1x.jpg,
+            ./images/work/work-1_desk@2x.jpg">
+           <img class="work__img" 
+                src="./images/type.jpg" 
+                alt="друкує" 
                 width="370"
-                height="294"
-              />
+                height="294">
+              </picture>
               <div class="work-thumb">
                 <p class="work-text">Десктопні додатки</p>
               </div>
             </li>
             <li class="work-item">
-              <img
-                class="work-img"
-                src="./images/phone.jpg"
-                alt="дзвонить"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source media="(min-width:1200px)" 
+                srcset="./images/work/work-2_desk@1x.jpg,
+                          ./images/work/work-2_desk@2x.jpg">
+                <img class="work__img" 
+                src="./images/phone.jpg" 
+                alt="дзвонить" 
+                width="370" 
+                height="294">
+              </picture>
               <div class="work-thumb">
                 <p class="work-text">Мобільні додатки</p>
               </div>
             </li>
             <li class="work-item">
-              <img
-                class="work-img"
-                src="./images/tablet.jpg"
-                alt="працює на планшеті"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source media="(min-width:1200px)" 
+                srcset="./images/work/work-3_desk@1x.jpg,
+                        ./images/work/work-3_desk@2x.jpg">
+                <img class="work__img" 
+                src="./images/phone.jpg" 
+                alt="працює на планшеті" 
+                width="370" 
+                height="294">
+              </picture>
               <div class="work-thumb">
                 <p class="work-text">Дизайнерські рішення</p>
               </div>
@@ -180,13 +189,25 @@
           <h2 class="section_title">Наша команда</h2>
           <ul class="team__list card-set list">
             <li class="team__item card-set__item">
-              <img class="team__img"
-              srcset=""
-                src="./images/igor.jpg"
-                alt="Ігор Дем'яненко"
-                width="270"
-                height="260"
-              />
+        <picture>
+
+          <source media="(min-width:1200px)" 
+          srcset="./images/team/team-1_desk@1x.jpg,
+                  ./images/team/team-1_desk@2x.jpg">
+        
+          <source media="(min-width:768px)" 
+          srcset="./images/team/team-1_tab@1x.jpg,
+                ./images/team/team-1_tab@2x.jpg">
+        
+          <source media="(max-width:767px)" 
+          srcset="./images/team/team-1_mob@1x.jpg,
+                  ./images/team/team-1_mob@2x.jpg">
+           <img class="team__img" 
+           src="./images/igor.jpg" 
+           alt="Ігор-Дем'яненко" 
+           width="450" 
+           height="460">
+        </picture>
               <div class="position">
                 <h3 class="position__name">Ігор Дем'яненко</h3>
                 <p class="position__heading" lang="en">Product Designer</p>
@@ -251,13 +272,21 @@
               </div>
             </li>
             <li class="team__item card-set__item">
-              <img
-                class="team__img"
-                src="./images/olga.jpg"
-                alt="Ольга Рєпіна"
-                width="270"
-                height="260"
-              />
+              <picture>
+              
+                <source media="(min-width:1200px)" 
+                srcset="./images/team/team-2_desk@1x.jpg,
+                        ./images/team/team-2_desk@2x.jpg">
+              
+                <source media="(min-width:768px)" 
+                srcset="./images/team/team-2_tab@1x.jpg,
+                        ./images/team/team-2_tab@2x.jpg">
+              
+                <source media="(max-width:767px)" 
+                srcset="./images/team/team-2_mob@1x.jpg,
+                        ./images/team/team-2_mob@2x.jpg">
+                <img class="team__img" src="./images/olga.jpg" alt="Ольга Рєпіна" width="450" height="460">
+              </picture>
               <div class="position">
                 <h3 class="position__name">Ольга Рєпіна</h3>
                 <p class="position__heading" lang="en">Frontend Developer</p>
@@ -322,12 +351,21 @@
               </div>
             </li>
             <li class="team__item card-set__item">
-              <img class="team__img"
-                src="./images/mykola.jpg"
-                alt="Микола Тарасов"
-                width="270"
-                height="260"
-              />
+              <picture>
+              
+                <source media="(min-width:1200px)" 
+                srcset="./images/team/team-3_desk@1x.jpg,
+                   ./images/team/team-3_desk@2x.jpg">
+              
+                <source media="(min-width:768px)" 
+                srcset="./images/team/team-3_tab@1x.jpg,
+                        ./images/team/team-3_tab@2x.jpg">
+              
+                <source media="(max-width:767px)" 
+                srcset="./images/team/team-3_mob@1x.jpg,
+                        ./images/team/team-3_mob@2x.jpg">
+                <img class="team__img" src="./images/mykola.jpg" alt="Микола Тарасов" width="450" height="460">
+              </picture>
               <div class="position">
                 <h3 class="position__name">Микола Тарасов</h3>
                 <p class="position__heading" lang="en">Marketing</p>
@@ -392,12 +430,21 @@
               </div>
             </li>
             <li class="team__item card-set__item">
-              <img class="team__img"
-                src="./images/mukhaylo.jpg"
-                alt="Михайло Єрмаков"
-                width="270"
-                height="260"
-              />
+              <picture>
+              
+                <source media="(min-width:1200px)" 
+                srcset="./images/team/team-4_desk@1x.jpg,
+                       ./images/team/team-4_desk@2x.jpg">
+              
+                <source media="(min-width:768px)" 
+                srcset="./images/team/team-4_tab@1x.jpg,
+                       ./images/team/team-4_tab@2x.jpg">
+              
+                <source media="(max-width:767px)" 
+                srcset="./images/team/team-4_mob@1x.jpg,
+                       ./images/team/team-4_mob@2x.jpg">
+                <img class="team__img" src="./images/mukhaylo.jpg" alt="Михайло Єрмаков" width="450" height="460">
+              </picture>
               <div class="position">
                 <h3 class="position__name">Михайло Єрмаков</h3>
                 <p class="position__heading" lang="en">UI Designer</p>

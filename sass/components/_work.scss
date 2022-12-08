@@ -1,6 +1,12 @@
 .work-section {
-    @include section;
-    padding-top: 0;
+    display: none;
+
+    @media screen and (min-width: 1200px) {
+        display: block;
+        @include section;
+        padding-top: 0;
+    }
+    
 }
 
 .work-list {
