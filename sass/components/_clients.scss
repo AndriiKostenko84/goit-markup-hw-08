@@ -1,72 +1,66 @@
-
 .clients-section {
-@include section;
-
+  @include section;
 }
 
 .clients__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  // gap: 30px;
+
+  @media screen and (min-width: 1200px) {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    // gap: 30px;
-    
-
-        @media screen and (min-width:1200px) {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                gap: 30px;
-        }
-
-    }
-        
+    gap: 30px;
+  }
+}
 
 .clients__link {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid var(--icons-color);
-        border-radius: 4px;
-        width: 210px;
-        height: 92px;
-        fill: var(--icons-color);
-    
-        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--icons-color);
+  border-radius: 4px;
+  width: 210px;
+  height: 92px;
+  fill: var(--icons-color);
 
-    @media screen and (min-width:1200px) {
-        display: flex;
-        // justify-content: center;
-        // align-items: center;
-        // border: 1px solid var(--icons-color);
-        // border-radius: 4px;
-        width: 170px;
-        height: 92px;
-        // fill: var(--icons-color);
-    
-        // transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        //     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    
+  @media screen and (min-width: 768px) {
+    width: 226px;
+  }
 
-        &:hover,
-        &:focus {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // border: 1px solid var(--icons-color);
+    // border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    // fill: var(--icons-color);
+
+    // transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    //     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &:hover,
+  &:focus {
     border-color: var(--accent-color);
 
     .clients__item &:hover,
     .clients__item &:focus {
-        fill: var(--accent-color);
+      fill: var(--accent-color);
     }
-}
+  }
 }
 
 .clients__item {
-    @media screen and (max-width:1199px) {
-        margin-bottom: 30px;
-        
-    }
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 30px;
+  }
 }
-
-
