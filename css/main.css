@@ -486,17 +486,6 @@ ul {
   .work-section {
     display: block;
     padding-top: 0;
-  }
-}
-@media screen and (min-width: 1200px) and (max-width: 1199px) {
-  .work-section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-}
-@media screen and (min-width: 1200px) and (min-width: 1200px) {
-  .work-section {
-    padding-top: 94px;
     padding-bottom: 94px;
   }
 }
