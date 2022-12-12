@@ -30,19 +30,7 @@
     &:focus {
               fill: var(--accent-color);
             }
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // border-radius: 4px;
-    
-    // height: 120px;
-    // margin-bottom: 30px;
-    // gap: 30px;
-
-    // background-color: #f5f4fa;
-
   }
-
 
 
 .features__list .feature__item:last-child {
@@ -87,4 +75,16 @@
 
 // .features__list .feature__item {
 //   margin-bottom: 30px;
+// }
+// .feature__icon {
+// display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   border-radius: 4px;
+
+//   height: 120px;
+//   margin-bottom: 30px;
+//   gap: 30px;
+
+//   background-color: #f5f4fa;
 // }

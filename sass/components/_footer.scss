@@ -18,53 +18,49 @@
 }
 
 .logo-block {
-    display: block;
-    text-align: center;
-    margin-bottom: 60px;
+  display: block;
+  text-align: center;
+  margin-bottom: 60px;
 
-    @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     margin-left: 76px;
   }
-    @media screen and (min-width: 1200px) {
-      display: flex;
-      flex-direction: column;
-      text-align: left;
-      margin-left: 0;
-    }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 0;
   }
-
+}
 
 .footer-logo {
-      display: inline-block;
+  display: inline-block;
 
-      margin-bottom: 28px;
+  margin-bottom: 28px;
 
-      font-family: "Raleway";
-      font-style: normal;
-      font-weight: 700;
-      font-size: 24px;
-      line-height: 1.16;
-      text-align: center;
-      letter-spacing: 0.03em;
-      color: var(--accent-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
 
-      @media screen and (min-width:1200px) {
-      font-size: 26px;
-      line-height: 1.19;
-      text-align: left;
-     
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.19;
+    text-align: left;
   }
-  }  
-
+}
 
 .footer-logo-secondary {
   color: var(--third-color);
 }
 
-
 .footer-box-link:not(:last-child) {
-    margin-bottom: 12px;
-  }
+  margin-bottom: 12px;
+}
 
 .footer-map-address {
   font-style: normal;
@@ -97,18 +93,17 @@
 }
 
 .footer-joinup {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 
-    @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     margin-left: 165px;
   }
-  
-   @media screen and (min-width:1200px) {
+
+  @media screen and (min-width: 1200px) {
     margin-bottom: 0;
     margin-left: 94px;
   }
-  }
-
+}
 
 .footer-joinup-title {
   margin-bottom: 20px;
@@ -122,12 +117,10 @@
 
   color: #ffffff;
 
- @media screen and (min-width:1200px) {
-  text-align: left;
+  @media screen and (min-width: 1200px) {
+    text-align: left;
   }
-  
-  }
-
+}
 
 .footer-social-list {
   display: flex;
@@ -205,25 +198,23 @@
 }
 
 .subscribe-field {
-  
-    width: 450px;
-    height: 50px;
-    margin-bottom: 20px;
-    color: var(--third-color);
-    background-color: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
+  width: 450px;
+  height: 50px;
+  margin-bottom: 20px;
+  color: var(--third-color);
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
 
-    @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     width: 358px;
 
     padding-left: 16px;
     transition: border-color var(--anim-stand);
+  }
 
-  } 
-
-    &:hover {
+  &:hover {
     border-color: var(--accent-color);
   }
 
@@ -234,9 +225,8 @@
 
     color: var(--brand-color);
   }
-  }
+}
 
-  
 .footer-subscribe-btn {
   margin-left: auto;
   margin-right: auto;
@@ -276,7 +266,6 @@
   margin-left: 10px;
   fill: var(--third-color);
 }
-
 
 // .footer-address {
 //   @media screen and (min-width: 1200px) {
